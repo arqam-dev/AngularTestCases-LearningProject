@@ -1,27 +1,13 @@
 import { Component } from '@angular/core';
+import { CalculatorComponent } from './calculator/calculator';
+import { UserProfileComponent } from './user-profile/user-profile';
 
 @Component({
   selector: 'app-root',
+  imports: [CalculatorComponent, UserProfileComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
-  count = 0;
-  message = 'Welcome to Angular Test Cases';
-
-  increment(): void {
-    this.count++;
-  }
-
-  decrement(): void {
-    this.count--;
-  }
-
-  reset(): void {
-    this.count = 0;
-  }
-
-  updateMessage(newMessage: string): void {
-    this.message = newMessage;
-  }
+  title = 'Angular Test Cases App';
 }

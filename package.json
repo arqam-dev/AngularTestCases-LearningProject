@@ -7,6 +7,13 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:all": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
+    "test:critical": "ng test --watch=false --browsers=ChromeHeadless --include='**/*.critical.spec.ts'",
+    "test:calculator": "ng test --watch=false --browsers=ChromeHeadless --include='**/calculator.spec.ts'",
+    "test:calculator:watch": "ng test --include='**/calculator.spec.ts'",
+    "test:user-profile": "ng test --watch=false --browsers=ChromeHeadless --include='**/user-profile.spec.ts'",
+    "test:user-profile:watch": "ng test --include='**/user-profile.spec.ts'",
     "serve:ssr:angular-testcases-app": "node dist/angular-testcases-app/server/server.mjs"
   },
   "prettier": {

@@ -1,0 +1,80 @@
+.user-profile {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+}
+
+.profile-item {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin: 1rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.age-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.age-controls button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.age-controls span {
+  min-width: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
